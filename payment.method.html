@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jazzcash</title>
+    <link rel="stylesheet" href="stylepay.css">
+
+</head>
+<body>
+    <div class="container">
+
+    <form action="">
+        <h1 class="main_haeding">PaymentMethod</h1>
+        
+        <p>
+            Name: <input type="text"  name="name" placeholder="your name" > </p>
+        <fieldset>
+            <legend>gender</legend>
+           <p>
+            male: <input type="radio" name="gender"  id="">Female: <input type="radio" name="gender" id=""></p>
+
+        </fieldset>
+        <p>Address: <textarea name="address" placeholder="write Address" id="address" cols="100" rows="8"></textarea></p>
+
+        <p><h1>Payment information</h1></p>
+        
+        <p>Email: <input type="email" name="email" placeholder="email" id="email"></p>
+        <p>Password: <input type="password" name="password" placeholder="password" id="password"></p>
+        <p><h3>jazzcash/easypaisa is available</h3></p>
+        <P>Card_Type
+            <SELECT name="CARD_type" id="CARD_type" >
+                <option value="">---select the card---</option>
+                <option value="payoneer">payoneer</option>
+                <option value="paypal">paypal</option>
+                <option value="mastercard">mastercard</option>
+                <option value="sadapay">sadapay</option>
+                <option value="skrill">skrill</option>
+                <option value="jazzcash">jazzcash</option>
+                <option value="easypaisa">easypaisa</option>
+            </SELECT>
+        </P>
+        <p>
+            card_number: <input type="number" name="card_number" placeholder="1111-00000-58858-4" id="card_number">
+        </p>
+        <p>
+            Expire_date: <input type="date" name="Expire_date" id="Expire_date">
+         </p>
+         <p>cvv: <input type="password" placeholder="cvv number" name="cvv" id="cvv">
+         </p>
+         <p>
+             <input type="submit" value="paynow">
+
+         </p>
+    
+
+    </form>     
+</div>
+</body>
+</html>
